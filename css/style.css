@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Title Css Start */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Product Image Box */
+.image {
+    width: auto;
+    height: 40%;
+    background-color: rgb(236, 235, 235);
+    position: relative;
+}
+
+.images {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 55% !important;
+}
+
+.badges {
+    float: left;
+    position: absolute;
+    top: 0px;
+}
+
+.fonts {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Discount Badges */
+.discount {
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 55px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.discount:hover {
+    color: red;
+    background-color: #ECEBEB;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+/* Likecount Badges */
+.likeCount {
+    background-color: #ECEBEB;
+    color: #333;
+    margin-bottom: 5px;
+    width: 55px;
+    text-align: center;
+
+}
+
+.likeCount:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* Isnew Badges */
+.isNew {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    width: 55px;
+    text-align: center;
+}
+
+.isNew:hover {
+    color: black;
+    background-color: #ECEBEB;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+
+/* Product Footer */
+.product {
+    width: 100%;
+    height: 500px;
+    margin: 5px;
+    background-color: rgb(236, 235, 235);
+    cursor: pointer;
+
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    
+}
+.product:hover{
+    box-shadow: 5px 10px 10px #333;
+    opacity: 0.6;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+/* Product Name */
+.name {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.names {
+    height: 40px;
+}
+
+/* Params Section */
+.params {
+    padding: 20px 0px;
+    text-align: center;
+    color: gray;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* Price Section */
+.priceMain {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.price {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    height: 10px;
+}
+
+.oldPrice {
+    display: inline-block;
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* Base-price (Liter Section) */
+.divBasePrice {
+    text-align: center;
+    padding: 20px 0px;
+    height: 10px;
+}
+
+.divBottomSpace {
+    height: 10px;
+}
+
+
+/* Next - Prev Section */
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 30%;
+    font-size: 46px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    font-size: 46px;
+}
+
+
+li{
+    list-style-type: none;
+}
